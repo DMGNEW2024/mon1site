@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    background-color: hsla(0, 17%, 98%, 0.882);
+    background-image: url('image/turbo fond site.jpg'); /* Remplacez 'image/moteur10.jfif' par le chemin de votre image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+   
+}
+
+
+header {
+    background-color: #34db50;
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.custom-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.custom-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.custom-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.custom-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.custom-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav details.details-align-right {
+    text-align: right;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(image/turbo fond site.jpg);
+}
+
+.logo h1 {
+    margin: 3px;
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: black;
+    color: #130f0f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu a.active {
+    border-bottom: 5px  #fff;
+    color: #c0b9b9e3;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f36946;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7b53d8;
+}
+
+.marquee-section {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.section_Produits {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.carte {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.carte:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.titre {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.prix {
+    color: #e44d26;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.toyota {
+    background-color: #e1e5eb; 
+}
+
+.nissan {
+    background-color: #ffe5e5; 
+}
+
+. {
+    background-color: #e5ffe5; 
+}
+
+.mazda {
+    background-color: #f9f9f9; 
+}
+
+.hyiundai {
+ background-color: #f9f9f9; 
+}
+
+.lexus {
+    background-color: #9b8686; 
+    padding: 0px;
+    margin-bottom: 2px;
+   }
+/*pour recherche sur les fondateurs*/
+ body {
+            font-family: Arial, sans-serif;
+        }
+
+        .search-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+
+        body {
+                font-family: Arial, sans-serif;
+            }
+    
+            .visible-content {
+                display: block;
+            }
+
+            .hidden-content {
+                display: none;
+            }
+
+            /*Garagerie */
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+            
+            .title mark {
+                background-color: yellow;
+            }
+            
+            .content li {
+                margin-bottom: 10px;
+            }
+            
+            .carte {
+                display: inline-block;
+                vertical-align: top;
+                margin: 10px;
+            }
+            
+            .image-container {
+                width: 100%;
+                overflow: hidden;
+            }
+            
+            .image-container img {
+                width: 100%;
+                height: auto;
+            }
+            
+            .titre {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+            
+            .prix {
+                font-size: 16px;
+                margin-top: 5px;
+            }
+            
+            .achat {
+                padding: 5px 10px;
+                font-size: 16px;
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+            
+            .achat:hover {
+                background-color: #45a049;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+            }
+    
+            footer {
+                text-align: center;
+                padding: 10px; 
+                border-top: 7px solid black; 
+                width: 100%; 
+                margin: 0 auto; 
+            }
